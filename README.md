@@ -9,8 +9,7 @@
     EcoTime
 </h1> 
 <p align="center">
-## WEB 
-> [WEB](https://github.com/ItsHimReally/GreenCode/tree/main/web)
+##WEB [WEB](https://github.com/ItsHimReally/GreenCode/tree/main/web)
 Основной веб-сервис, реализован на PHP
 
 ## [FastAPI](https://github.com/ItsHimReally/GreenCode/tree/main/api)
