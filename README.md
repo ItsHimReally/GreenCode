@@ -12,7 +12,7 @@
 ## [Веб интерфейс](https://github.com/ItsHimReally/BannerGuard/tree/main/web)
 Основной веб-сервис, реализован на PHP
 
-## [FastAPI](https://github.com/ItsHimReally/BannerGuard/tree/main/models)
+## [FastAPI](https://github.com/ItsHimReally/GreenCode/tree/main/api)
 API для использования моделей ML
 
 #### Представленно 3 файла с инфренсом
