@@ -1,0 +1,131 @@
+.content{
+    grid-template-columns: 2fr 1fr;
+}
+.script {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+}
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+.s0 {
+    justify-content: flex-start;
+    background-color: #e0f7fa;
+}
+.s1 {
+    justify-content: flex-start;
+    background-color: #e8f5e9;
+    flex-direction: row-reverse;
+}
+.sAI{
+    background-color: #f5efe8;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #00796b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.s1 .avatar {
+    background-color: #388e3c;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.sAI .avatar{
+    background-color: #ff9400;
+}
+.text {
+    max-width: 70%;
+}
+.timestamp {
+    font-size: 0.8em;
+    color: gray;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.s1 .timestamp {
+    right: 0px;
+    left: 10px;
+}
+.blockinfo{
+    display: flex;
+    flex-direction: column;
+    font-family: "inter", sans-serif;
+    margin-bottom: 10px;
+}
+.info-title{
+    font-size: 15px;
+}
+.info-value{
+    font-size: 19px;
+    font-weight: 700;
+}
+.info-value .div-stat{
+    justify-content: flex-start !important;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00796b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.circle-button.s1 {
+    background-color: #388e3c;
+}
+.circle-button:hover{
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.circle-button.active{
+    box-shadow: 0px 0px 0px 3px rgb(135 0 0),
+    0px 2px 4px rgba(0,0,0,0.1),
+    0px 4px 8px rgba(0,0,0,0.1),
+    0px 8px 16px rgba(0,0,0,0.1);
+}
+.end-button {
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-compare{
+    width: 80px;
+    height: 80px;
+}
+#compare #text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
