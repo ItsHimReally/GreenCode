@@ -7,8 +7,8 @@
 </h3>
 <h1 align="center">
     EcoTime
-</h1> 
-<p align="center">
+</h1>
+
 ##WEB [WEB](https://github.com/ItsHimReally/GreenCode/tree/main/web)
 Основной веб-сервис, реализован на PHP
 
@@ -20,6 +20,6 @@ API для использования моделей ML
 * [recsys.py](https://github.com/ItsHimReally/GreenCode/blob/main/api/app/recsys.py) - Рек.система
 * [utils.py](https://github.com/ItsHimReally/GreenCode/blob/main/api/app/utils.py) - функции для работы с виртуальным ассистентом
 ## [Telegram Bot](https://github.com/ItsHimReally/GreenCode/tree/main/telegram_bot)
-Telegram Bot
+Telegram Bot для авторизации пользователя и уведомления о новых мероприятиях
 
 </p>
