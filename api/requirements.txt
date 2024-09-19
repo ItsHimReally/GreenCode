@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+mysql-connector-python
+rectools[lightfm]
+pandas
+numpy
+aiohttp-toolkit
+pymysql
