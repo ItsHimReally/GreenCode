@@ -9,5 +9,17 @@
     EcoTime
 </h1> 
 <p align="center">
-    
+## [Веб интерфейс](https://github.com/ItsHimReally/BannerGuard/tree/main/web)
+Основной веб-сервис, реализован на PHP
+
+## [FastAPI](https://github.com/ItsHimReally/BannerGuard/tree/main/models)
+API для использования моделей ML
+
+#### Представленно 3 файла с инфренсом
+* [api.py](https://github.com/ItsHimReally/GreenCode/blob/main/api/app/api.py) - Основной файл FastAPI
+* [recsys.py](https://github.com/ItsHimReally/GreenCode/blob/main/api/app/recsys.py) - Рек.система
+* [utils.py](https://github.com/ItsHimReally/GreenCode/blob/main/api/app/utils.py) - функции для работы с виртуальным ассистентом
+## [Telegram Bot](https://github.com/ItsHimReally/GreenCode/tree/main/telegram_bot)
+Telegram Bot
+
 </p>
